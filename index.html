@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Scope Challenege</title>
+  </head>
+  <body>
+    <p id="Part_1">
+        <button onclick="imRight()">Click me</button>
+        <button onclick="noImRight()">No, Click me</button>
+        <p id="answer"></p>
+    </p>
+
+<br>
+<br>
+
+    <p id="Part_2">
+      <h1 onmouseover="dontHover()"> DONT HOVER OVER ME </h1>
+    </p>
+
+<br>
+<br>
+
+  <h1 id="Part_3" onkeypress="keyAlert(event)"></h1>
+
+<br>
+<br>
+
+ <form action"" onsubmit=""="return checkUser()" >
+<label for="username">Username</label>
+<input type="text" name="username" id="username"><br>
+<label for="password">Password</label>
+<input type="password" name="password" id="password"><br>
+<input type="submit" value="Submit">
+</form>
+
+
+  </body>
+</html>
